@@ -5,7 +5,10 @@
 1. ResNet strikes back : An improved training procedure in timm  
 2. Self-Attention With Relative Position Representations
 3. Rethinking and Improving Relative Position Encoding for Vision Transformer
-
+4. Person Re-Identification with a Locally Aware Transformer
+5. Stronger Baseline for Person Re-identification
+6. Self-Supervised Pre-Training for Transformer-Based person Re-identification
+7. TransReID : Transformer-based Object Re-Identification
 # Groups
 
 ## *Abstract*
@@ -49,7 +52,7 @@
         - ~을 알아냈음을 나타낼 때 (find의 대체어)
     - run counter to
         - ~에 반대하여
-
+13. Extracting robust feature representation is one of the key challenges in object re-identification(Re-ID).[7]
 ## *Introduction*
 
 1. We have witnessed significant advances in image classification, as reflected by ~[1]
@@ -97,6 +100,30 @@
 12. There are mainly two classes of methods to encode positional representations for transformer.
     - There are mainly two classes of methods to ~
         - 주로 두가지 방법을 사용한다~의 표현
+
+## Re-ID Introduction
+
+1. Person Re-identification is an important problem in computer vision-based surveilance applications, in which the same person is attempted to be identified from surveillance in a variety of nearby zones.[4]
+    - be attempted to be identified from ~ 
+    - in a variety of ~ 
+2. Person Re-ID is a predominantly considered as a feature embedding problem[4]
+    - predominantly considered as ~ : ~로 간주된다.
+3. Person re-identification(re-ID) aims to identify the same person of interest across non-overlapping capturing cameras, which plays an important role in visual surveillance applications and computer vision research areas.[5] 
+    - aims to ~ 
+    - plays an importabt role
+4. It aims at locating and recognizing a person of interest across multiple non-overlapping cameras in various spots.[5]
+
+5. This work targets to mitigate the gap between the pre-training and ReID datasets from the perspective of data and model structure, respectively[6]
+    - S targets to mitigate O : S는 O를 통합하는 것을 목적으로 한다.
+    - from the perpective of ~ : 의 관점에서 
+
+6. Object re-identification(Re-ID) aims to associate a particular object across different scenes and camera view, such as in the applications of person ReID and vehicle ReID.[7]
+    - ~ aims to associate O across different scenes and camera view
+
+7. Extracting robust and discriminative features is a crucial component of ReID, and has been dominated by CNN-based methods for a long time.[7]
+    - S is a crucial component of O
+    - Has been dominated by O
+
 ## Related work
 
 1. The Transformer employs an encoder-decoder structure, consisting of stacked encoder and decoder layers[2]
@@ -115,6 +142,8 @@
         - 특성이 공유된다는 말을 통해, 특성이 내재되어있음을 표현
     - ~, are invaraint to the total sequence length
         - sequence 에 대해 total sequence length라는 표현
+
+
 
 ## Experiments
 
@@ -143,4 +172,9 @@
 
 8. Solely due to ~
     - 전적으로 ~만으로 
-### 문장
+
+9. To alleviate this dilemma, : 이런 문제를 완화하기 위해~
+
+10. To address this challenge, : 이런 문제를 다루기 위해~ 
+
+11. To overcome these limitations : 이런 한계점을 극복하기 위해~
