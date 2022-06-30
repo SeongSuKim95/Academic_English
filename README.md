@@ -97,10 +97,31 @@
     - 첫 문장의 impact
     - ~ has drawn great attention in computer vision
         - Computer vision 영역에서 굉장한 관심을 얻었음을 표현
-12. There are mainly two classes of methods to encode positional representations for transformer.
+    - competitive performance and superior capability
+    - capturing long-range dependencies
+12. There are mainly two classes of methods to encode positional representations for transformer.[3]
     - There are mainly two classes of methods to ~
         - 주로 두가지 방법을 사용한다~의 표현
+13. The core of transformer is self-attention, which is capable of modeling the relationship of tokens in a sequence.[3]
+    - The core of A is B : A의 핵심 아이디어는 B이다.
 
+14. There are mainly two classes of methods to encode positional representations for transformer.[3]
+    - There are mainly n classes of methods to~
+        - 어떤 주제의 굵직한 접근방식을 나열하기 전에 사용하기 좋음
+
+15. However, in computer vision, the efficacy is still unclear.[3]
+    - still unclear
+    - remains controversial의 느낌으로 사용
+
+16. There are few recent works shedding light on it.[3]
+    - 몇몇 연구들이 진행되었음을 sense 있게 표현...
+    - 이런 표현은 어떻게 쓴거지 진짜
+
+17. For example, ~ observed that the relative position encoding does not bring any gain comparing to the absolute one.
+
+18. It is unclear that : Whether the naive extension from 1D or 2D is suitable for vision models; whether the directional information is important in vision task?
+    - 질문형 문장을 이어나가는 방식
+    - That 이후 wheter 문을 쓰는 것이 깔끔하게 떨어진다.
 ## Re-ID Introduction
 
 1. Person Re-identification is an important problem in computer vision-based surveilance applications, in which the same person is attempted to be identified from surveillance in a variety of nearby zones.[4]
@@ -149,6 +170,8 @@
 
 ## Ablations
 
+1. The experiments include an ablation study to analyse the effectiveness of the ideas introduced in the proposed approach.
+    - 깊게 고민하지 말고 ablation study에 대해 명료하게 설명
 ## 숙어/기본 문장
 
 1. benefits greatly from : ~로 부터 큰 혜택을 받다.
@@ -178,3 +201,12 @@
 10. To address this challenge, : 이런 문제를 다루기 위해~ 
 
 11. To overcome these limitations : 이런 한계점을 극복하기 위해~
+
+12. With respect to : ~에 관하여
+
+13. Integrate 과 Incorporate의 차이 (통합하다) : 
+
+    - 어떤 것이 다른 것과 integrate 된다고 할때 온전한 하나로 다시 형성되는 것을 의미
+    - Incorporate는 어떤 것이 다른 것에 부분으로 포함되는 것을 의미
+
+15. in order O to V : O가 V할수 있게 하기 위해
