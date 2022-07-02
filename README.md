@@ -113,13 +113,13 @@
     - still unclear
     - remains controversial의 느낌으로 사용
 
-16. There are few recent works shedding light on it.[3]
+16. There are few recent works shedding light on it, but obtaining controversial conclusions in vision transformers.[3]
     - 몇몇 연구들이 진행되었음을 sense 있게 표현...
     - 이런 표현은 어떻게 쓴거지 진짜
 
-17. For example, ~ observed that the relative position encoding does not bring any gain comparing to the absolute one.
+17. For example, ~ observed that the relative position encoding does not bring any gain comparing to the absolute one.[3]
 
-18. It is unclear that : Whether the naive extension from 1D or 2D is suitable for vision models; whether the directional information is important in vision task?
+18. It is unclear that : Whether the naive extension from 1D or 2D is suitable for vision models; whether the directional information is important in vision task?[3]
     - 질문형 문장을 이어나가는 방식
     - That 이후 wheter 문을 쓰는 것이 깔끔하게 떨어진다.
 ## Re-ID Introduction
@@ -164,8 +164,9 @@
     - ~, are invaraint to the total sequence length
         - sequence 에 대해 total sequence length라는 표현
 
-
-
+5. In this fashion, the pairwise positional relation is learned during transformer training.[3]
+    - 이런 방식으로, pairwise의 위치관계가 transformer의 학습과정에서 학습된다.
+    - In this fashion : 이런 방식으로~ 
 ## Experiments
 
 ## Ablations
@@ -210,3 +211,19 @@
     - Incorporate는 어떤 것이 다른 것에 부분으로 포함되는 것을 의미
 
 15. in order O to V : O가 V할수 있게 하기 위해
+
+16. Adjust, apply , draw conclusion
+
+17. For the sake of ~ : ~때문에, ~를 위해서
+    - ~를 돕기 위해서, ~를 좋아해서 의 의미가 강하다.
+    - 목적을 가진 뉘앙스로 쓰지는 않는다.
+
+18. "포함"의 의미 
+    - include : 전체가 여러개로 구분된 것들을 전체의 일부분으로 포함시키는 것, 상품이나 서비스가 어떠한 구성 요소를 포함하고 있음을 의미
+    - contain : 대상 안에 내용물이 함유되어 있음을 의미
+    - involve : 수반하다. 관련시키다. 참여시키다. 원인과 결과의 인관관계로 설명하는 뜻으로 제한되어 쓰임
+
+19. "각각"
+    - each
+    - respective
+    - individual
