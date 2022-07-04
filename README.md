@@ -9,6 +9,7 @@
 5. Stronger Baseline for Person Re-identification
 6. Self-Supervised Pre-Training for Transformer-Based person Re-identification
 7. TransReID : Transformer-based Object Re-Identification
+8. UniformFace : Learning Deep Equidistributed Representation for Face Recognition
 # Groups
 
 ## *Abstract*
@@ -167,12 +168,58 @@
 5. In this fashion, the pairwise positional relation is learned during transformer training.[3]
     - 이런 방식으로, pairwise의 위치관계가 transformer의 학습과정에서 학습된다.
     - In this fashion : 이런 방식으로~ 
+
+## Proposed methods
+
+1. We employ the simultaneous supervision of A-Softmax loss and uniform loss to learn discriminative and equidistributed features as follows[8]
+    - Employ the simultaneous supervision of ~ : 제안한 loss를 기존 loss와 통합하여 씀을 이와 같이 표현
 ## Experiments
 
 ## Ablations
 
 1. The experiments include an ablation study to analyse the effectiveness of the ideas introduced in the proposed approach.
     - 깊게 고민하지 말고 ablation study에 대해 명료하게 설명
+
+## Conclusion 
+
+- 요약을 하는것이 아닌 연구의 의미의 전망을 적는것!
+- 논문의 Conclusion 부분을 모아 유심히 읽으면 감이 빨리 온다.
+
+- The abundant experiments show that our methods bring a clear improvement on both classification and detection tasks with negligible extra complexity.[3]
+    - abundant experimenst
+    - our methods bring a clear improvement on ~
+
+- Our method could be easily plugged into the self-attention modules in vision models.[3]
+    - could be easily plugged into ~
+- In addition, we give comparison of different methods and analysis on relative position encoding with following conclusions.[3]
+    - give comparison of different methods~
+
+- In future works, we plan to extend our method to other attention-based models and scenarios, such as ~[3]
+    - plan to extend our method to ~
+
+- In this paper, we invesitgate a pure transformer framework for the object ReID task, and propose two novel modules.[7]
+
+- The final framework TransReID outperforms all other state-of-the-art methods by a large margin on several popular person/vehicle ReID datasets.[7]
+    - S outperforms O by a large margin 
+
+- Based on the promising results achieved by TransReID, we believe the transformer has great potential to be further explored for ReID tasks.[7]
+    - promising results achieved by ~
+    - we believe the ~
+
+- Based on the rich experience gained from CNN-based methods, it is in prospect that more efficient transformer-based networks can be designed with better representation power and less computational cost.[7]
+    - rich experience 
+    - in prospect that : ~을 예상하여
+
+- In this paper we presented an extension to self-attention that can be used to incorporate relative position information for sequences, which improves performance for machine translation.
+    - present an extension to ~ : 개념을 확장하는 의미로 사용
+
+- For future work, we plan to extend this mechanism to consider arbitrary directed, labeled graph inputs to the Transformer.
+    - plan to extend this mechanism
+
+- For both of these extensions, a key consideration will be determining efficient implementations.
+    - a key consideration : 주요 고려사항
+    
+
 ## 숙어/기본 문장
 
 1. benefits greatly from : ~로 부터 큰 혜택을 받다.
@@ -199,7 +246,7 @@
 
 9. To alleviate this dilemma, : 이런 문제를 완화하기 위해~
 
-10. To address this challenge, : 이런 문제를 다루기 위해~ 
+10. To address this challenge, : 이런 문제를 다루기 위해~ (resolve)
 
 11. To overcome these limitations : 이런 한계점을 극복하기 위해~
 
@@ -227,3 +274,7 @@
     - each
     - respective
     - individual
+
+20. with respect to : ~에 대해
+
+21. be equipped with : network가 어떤 구조적 요소들을 포함하고 있을때 자주 쓰인다.
